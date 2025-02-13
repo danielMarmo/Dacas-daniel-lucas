@@ -9,5 +9,15 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+
+  return (
+
+<div className="bg-hover text-white  w-full h-[20px]">
+  <p className="text-paragraph-h3">pene</p>
+
+<Welcome />;
+</div>
+)
+
+
 }
