@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import Welcome from "./welcome";
+import Header from "../components/Header";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,11 +13,19 @@ export default function Home() {
 
   return (
 
-<div className="bg-hover text-white  w-full h-[20px]">
-  <p className="text-paragraph-h3">pene</p>
+<div>
+<Header />
 
-<Welcome />;
+<Welcome />
+
+
+
 </div>
+
+
+
+
+
 )
 
 
