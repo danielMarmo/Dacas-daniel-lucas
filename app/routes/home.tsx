@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import Welcome from "./welcome";
+import Header from "../components/Header";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -12,21 +13,17 @@ export default function Home() {
 
   return (
 
-    <div>
-      <div className="bg-hover text-white w-full h-[100px] flex justify-between">
-        <div className="flex">
-          <h1 className="text-heading-h1">Hello</h1>
-          <p className="text-paragraph-h3">hola</p>
-        </div>
-        <div className="flex">
-          <h1 className="text-heading-h1">Hello</h1>
-          <p className="text-paragraph-h3">hola</p>
-        </div>
-      </div>
+<div>
+<Header />
 
-      <Welcome />
-    </div>
-  )
+<Welcome />
 
 
+</div>
+
+
+
+
+
+)
 }

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 @theme {
     /* Variables importadas de Figma */
     --color-primary: #251e5b;

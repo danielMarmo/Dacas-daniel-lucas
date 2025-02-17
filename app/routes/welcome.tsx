@@ -18,25 +18,14 @@ export default function Welcome() {
       </div>
 
       <div className="grid grid-cols-3 gap-4 mt-4">
-        <Card
-          title="Oferta1"
-          description="loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor."
-          price={100}
-          buttonText="Boton1"
-        />
+     
          <Card
           title="Oferta1"
           description="loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor."
           price={100}
           buttonText="Boton1"
         />
-         <Card
-          title="Oferta1"
-          description="loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor. loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor. loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor. loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor.
-          loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor. loremp ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor."
-          price={100}
-          buttonText="Boton1"
-        />
+   
       </div>
 
       <Form />
