@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import Card from "../components/Card";
+import Form from "../components/Form";
 
 export default function Welcome() {
   const handleClick = (text: string) => {
@@ -37,6 +38,8 @@ export default function Welcome() {
           buttonText="Boton1"
         />
       </div>
+
+      <Form />
     </div>
 
   );
