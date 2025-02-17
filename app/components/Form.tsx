@@ -8,6 +8,8 @@ function Form() {
     };
 
     return (
+        <div className='container mx-auto'>
+            
         <form className="grid grid-cols-3 gap-4 p-4 mx-auto w-full">
             <Input
                 type="text"
@@ -27,10 +29,17 @@ function Form() {
             <Textarea
                 name="mensaje"
                 placeholder="Mensaje"
-                extraClassName="col-span-3 p-2 pb-[5rem]"
+                extraClassName="col-span-3"
             />
-            <Button text="Enviar" onClick={handleClick} />
+            <div>
+                <div className="pb-3">
+                    <input type="checkbox" name="terms" id="terms" />
+                    <label htmlFor="terms" className="text-paragraph-h1 font-lexend"> Acepto la Politica de Privacidad</label>
+                </div>
+                <Button text="Enviar" onClick={handleClick} />
+            </div>
         </form>
+        </div>
     )
 }
 

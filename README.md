@@ -1,100 +1,47 @@
-# Welcome to React Router!
+# Creacion de componentes con React
+Realizado por:
+- **Daniel Marín Moraleda**:
+- **Lucas Hernández Martín de San Pablo**:
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## Enlaces
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+- **Repositorio en GitHub**: [Github](https://github.com/danielMarmo/Dacas-daniel-lucas)
+- **Demo en Vivo**: [Ver Proyecto](https://danielmarmo.github.io/Dacas-daniel-lucas)
+- **Diseño en Figma**: [Figma](https://www.figma.com/design/UROWDXNZhUUrTKwmgNjvdO/Untitled?node-id=1-33&t=tipRW6EdmytL5lDX-1)
 
-## Features
+### Instalacion 
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
+Instalar dependencias:
 
 ```bash
 npm install
 ```
 
-### Development
+### Despliegue
 
-Start the development server with HMR:
+Despliega el proyecto mediante:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Tu aplicacion se encontrara disponible en `http://localhost:5173`.
 
-## Building for Production
+## Tecnologías Utilizadas
 
-Create a production build:
+- **React Router**: Estructura y contenido básico del sitio web.
+- **Tailwind**: Estilización visual de las páginas.
+- **Vite**: Herramienta de construcción para mejorar el flujo de trabajo de desarrollo.
 
-```bash
-npm run build
-```
+## Descripción
 
-## Deployment
+Realizamos la creacion de los componentes necesarios para la creacion de la web diseñada en Figma, tenemos componentes que se usaran en todas las páginas como: 
+- Header
+- Footer
 
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Y luego tendremos algunos componentes mas especificos o componentes que se usaran para completar otros componentes
+- Button: sera un componente que se usara principalmente para completar componentes, tienen 4 variantes y se usan en componentes como en Header, Cards y Form
+- Card: es un componente que tiene 2 variantes, una para las cards de ofertas y otra para cards de personas en las que presentaremos nuestros trabajadores
+- Form: se compone de componentes como Input, Textarea y Button
+- Input: componente que se usara para la creacion de formularios
+- Textarea: componente que se usara para la creacion de formularios
