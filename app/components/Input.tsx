@@ -9,7 +9,7 @@ function Input({ type, placeholder, extraClassName }: InputProps) {
         <input 
             type={type} 
             placeholder={placeholder} 
-            className={`text-paragraph-h1 font-lexend bg-background text-black border rounded-full p-2 ${extraClassName}`}
+            className={`text-paragraph-h1 font-lexend bg-background text-black border rounded-[20px] p-2 ${extraClassName}`}
              />
     )
 }
