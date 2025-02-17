@@ -2,7 +2,7 @@ import type { Route } from "./+types/home";
 import Welcome from "./welcome";
 import Header from "../components/Header";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
     { name: "description", content: "Welcome to React Router!" },
@@ -19,7 +19,6 @@ export default function Home() {
 <Welcome />
 
 
-
 </div>
 
 
@@ -27,6 +26,4 @@ export default function Home() {
 
 
 )
-
-
 }
