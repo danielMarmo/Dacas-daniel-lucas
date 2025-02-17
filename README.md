@@ -1,7 +1,7 @@
 # Creacion de componentes con React
 Realizado por:
-- **Daniel Marín Moraleda**:
-- **Lucas Hernández Martín de San Pablo**:
+- **Daniel Marín Moraleda**
+- **Lucas Hernández Martín de San Pablo**
 
 ## Enlaces
 
