@@ -6,7 +6,7 @@ Realizado por:
 ## Enlaces
 
 - **Repositorio en GitHub**: [Github](https://github.com/danielMarmo/Dacas-daniel-lucas)
-- **Demo en Vivo**: [Ver Proyecto](https://danielmarmo.github.io/Dacas-daniel-lucas)
+- **Demo en Vivo**: [Ver Proyecto](dacas-daniel-lucas-hn1yuh9sx-danielmarmos-projects.vercel.app)
 - **Diseño en Figma**: [Figma](https://www.figma.com/design/UROWDXNZhUUrTKwmgNjvdO/Untitled?node-id=1-33&t=tipRW6EdmytL5lDX-1)
 
 ### Instalacion 
